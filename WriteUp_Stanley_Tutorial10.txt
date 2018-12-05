@@ -1,0 +1,3 @@
+1. Hal tersebut dilakukan supaya memungkinkan kita untuk melakukan request kerestricted resources pada suatu web page dari domain di luar domain web tersebut. Jikadihilangkan, maka kita tidak dapat mengakses web (disini API SI appointment) dan tidakmendapatkan request yang diminta.
+
+2. Kode tersebut melakukan assign variable dataJson dengan index ‘id’ dengan “value id”pasien tersebut. Jika kita mengganti dengan [key], akan terjadi error 500 karena datadari id tersebut tidak di- assign.
